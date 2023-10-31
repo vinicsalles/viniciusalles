@@ -144,7 +144,7 @@ a:hover{
 .experiencia-container {
     display: grid;
     align-items: center;
-    grid-template-columns: 5.5556vh 1fr;
+    grid-template-columns: 5vh 1fr;
     gap: 1.25rem;
 }
 
@@ -480,11 +480,12 @@ footer {
         font-size: 6rem;
     }
     .experiencia-container{
-        grid-template-columns: 5.5556vh 50vh;
+        grid-template-columns: 5.5556vh 40vh;
     }
 
     .trampo {
-        grid-template-columns: 40vh;
+        grid-template-columns: 33vh;
+        padding: 1.1rem;
     }
 
     .formacao h2{
@@ -510,10 +511,15 @@ footer {
         font-size: 1rem;
     }
     .contato {
-        grid-template-columns: 60vh;
+        grid-template-columns: 50vh;
         justify-content: center;
         gap: 60px;
     }
+
+    .contato img{
+        max-width: 60%;
+    }
+
     form h2{
         margin-top: 2vh;
         font-size: 3rem;
@@ -521,5 +527,31 @@ footer {
     }
     form textarea {
         height: 20vh;
+    }
+
+    .contato form{
+        height: 60vh;
+        width: 39vh;
+       
+    }
+
+    
+    .contato form{
+        height: 60vh;
+        width: 39vh;
+       
+    }
+
+    form input{
+    width: 28vh;
+       
+    }
+    
+    form textarea{
+    width: 30vh;
+    }
+    
+    form button{
+        width: 29vh;
     }
 }
