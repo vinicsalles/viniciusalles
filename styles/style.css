@@ -69,6 +69,7 @@ nav {
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    margin-right: 10px;
   }
   
   .mobile-menu {
@@ -426,7 +427,8 @@ footer {
       position: absolute;
       top: 8vh;
       right: 0vh;
-      height: 22vh;
+      height: 17vh;
+      border-radius: 3vh;
       background: #121218;
       flex-direction: column;
       align-items: start;
